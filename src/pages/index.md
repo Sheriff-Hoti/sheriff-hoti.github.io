@@ -19,9 +19,26 @@ I am a passionate software engineer with 4+ years of experience in crafting robu
 
 ## Work Experience
 
-### TelOS-Labs
+### [AIOS](https://www.linkedin.com/company/aios-tech)
 
-#### Software Engineer | Jan 2026 - Present
+#### Software Engineer | Feb 2026 - Sep 2026
+Prishtina, Kosovo | Hybrid
+
+- Was part of Ai Lifecycle Growth team
+- Utilised Customerio platform to create multiple campaigns targeting leads and churned customers.
+- Used Twilio platform to create different whatsapp templates, with different content types(card, carousel, cta, quick-reply, etc..).
+- Added a notification system when Whatsapp templates got rejected or paused.
+- Created email components on Customerio design system so campaign emails can use a unified design language.
+- Worked on [Jesse](https://www.boltpharmacy.co.uk/how-we-use-ai):
+  - Prompt finetunning and then eval testing
+  - Monitoring how Jesse is behaving
+  - Adding and maintaining different tools
+  - Feeding Jesse the right context and improving its decision making<br><br>
+- [Here](https://sheriff-hoti.github.io/Letter-Of-Reference-Sherif_Hoti.pdf) you can find the letter of reference from the VP of Engineering at AIOS.
+
+### [TelOS-Labs](https://www.linkedin.com/company/telos-labs-llc)
+<sub>Your smaller text underneath</sub>
+#### Software Engineer | Jan 2026 - Feb 2026
 Prishtina, Kosovo | On-site
 
 - Shipped Next.js app-router features with server/client components, ISR, and tuned caching.
