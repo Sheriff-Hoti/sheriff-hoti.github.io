@@ -1,9 +1,13 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@config "../tailwind.config.cjs";
+
 body {
   font-family: "Poppins", sans-serif;
 }
 
 ::selection {
-  @apply bg-indigo-400 bg-opacity-50 text-white;
+  @apply bg-indigo-400/50 text-white;
 }
 
 article.minimalist {
