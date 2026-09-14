@@ -37,7 +37,7 @@ Prishtina, Kosovo | Hybrid
 - [Here](https://sheriff-hoti.github.io/Letter-Of-Reference-Sherif_Hoti.pdf) you can find the letter of reference from the VP of Engineering at AIOS.
 
 ### [TelOS-Labs](https://www.linkedin.com/company/telos-labs-llc)
-<sub>Your smaller text underneath</sub>
+
 #### Software Engineer | Jan 2026 - Feb 2026
 Prishtina, Kosovo | On-site
 
