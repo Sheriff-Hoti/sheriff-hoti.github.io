@@ -16,12 +16,18 @@ article.minimalist {
     prose-h2:uppercase prose-h2:text-slate-500
     prose-h3:mb-3 prose-h3:mt-8 prose-h3:text-xl prose-h3:uppercase prose-h4:mb-3 
     prose-h4:mt-4 prose-h4:text-sm prose-h4:text-slate-600 prose-p:my-2
-    prose-p:text-sm prose-p:leading-6 prose-a:font-bold prose-a:no-underline prose-a:transition-colors 
-    hover:prose-a:text-slate-400 prose-li:text-sm prose-table:mt-4 prose-thead:border-0
+    prose-p:text-sm prose-p:leading-6 prose-a:font-bold prose-a:underline prose-a:underline-offset-4 prose-a:decoration-indigo-400 
+    prose-li:text-sm prose-table:mt-4 prose-thead:border-0
     prose-th:p-0 prose-th:font-medium prose-td:p-0
     prose-td:text-slate-500
     dark:bg-slate-800
     prose-h4:dark:text-slate-400  
     sm:px-24 sm:py-14
     lg:max-w-4xl;
+}
+
+/* Per-link hover: only the anchor under the cursor reacts
+   (hover:prose-a:* would fire on article hover for ALL links) */
+article.minimalist a:hover {
+  @apply text-slate-400 decoration-slate-400;
 }
