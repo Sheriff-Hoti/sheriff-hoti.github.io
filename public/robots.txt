@@ -1,0 +1,6 @@
+# Allow all crawlers, including search engines and AI search/assistant bots
+# (Googlebot, Bingbot, OAI-SearchBot, ChatGPT-User, Claude-SearchBot, Claude-User, ...)
+User-agent: *
+Allow: /
+
+Sitemap: https://sheriff-hoti.github.io/sitemap-index.xml

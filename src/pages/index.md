@@ -1,13 +1,13 @@
 ---
-title: Sherif Hoti - Resume
-description: Resume of Sherif Hoti.
+title: Sherif Hoti — Full Stack Software Engineer · Prishtina, Kosovo
+description: Sherif Hoti is a Full Stack Software Engineer in Prishtina, Kosovo with 4+ years building web applications with TypeScript, React, Java, Spring Boot and Express.js.
 layout: ../layouts/Resume.astro
 pdfLink: resume.pdf
 ---
 
 # Sherif Hoti
 
-**Software Engineer**
+**Full Stack Software Engineer**
 
 Prishtina, Kosovo | On-site
 

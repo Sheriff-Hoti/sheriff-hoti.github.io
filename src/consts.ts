@@ -1,5 +1,6 @@
 export const SITE_TITLE = 'Sherif Hoti';
-export const SITE_DESCRIPTION = 'Resume of Sherif Hoti.';
+export const SITE_DESCRIPTION =
+  'Sherif Hoti is a Full Stack Software Engineer in Prishtina, Kosovo with 4+ years building web applications with TypeScript, React, Java, Spring Boot and Express.js.';
 export const SITE_URL = 'https://sheriff-hoti.github.io';
 
 export const LINKS = [
@@ -8,3 +9,38 @@ export const LINKS = [
 ];
 
 export const RESUME_PDF = '/resume.pdf';
+
+// Structured data (JSON-LD) describing the person this site is about.
+// Google requires it to match what's visible on the page, so keep it in sync
+// with src/pages/index.md.
+export const PERSON = {
+  '@type': 'Person',
+  name: SITE_TITLE,
+  url: `${SITE_URL}/`,
+  jobTitle: 'Full Stack Software Engineer',
+  description: SITE_DESCRIPTION,
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Prishtina',
+    addressCountry: 'XK',
+  },
+  knowsAbout: [
+    'Full stack development',
+    'TypeScript',
+    'JavaScript',
+    'React',
+    'Next.js',
+    'Java',
+    'Spring Boot',
+    'Express.js',
+    'Relational databases',
+    'Terraform',
+    'AWS',
+    'C#',
+    'Vue',
+    'Lit',
+    'Solid',
+  ],
+  knowsLanguage: ['sq', 'en'],
+  sameAs: LINKS.map(({ href }) => href),
+};
