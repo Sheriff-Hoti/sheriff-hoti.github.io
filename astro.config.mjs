@@ -1,14 +1,8 @@
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
-import tailwindcss from '@tailwindcss/vite';
+import { SITE_URL } from './src/consts';
 
 // https://astro.build/config
 export default defineConfig({
-  vite: {
-    plugins: [tailwindcss()],
-    ssr: {
-      external: ['svgo'],
-    },
-  },
+  site: SITE_URL,
 });

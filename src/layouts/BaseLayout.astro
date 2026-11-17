@@ -1,0 +1,20 @@
+---
+import Head from '@/components/Head.astro';
+
+const { headProps } = Astro.props;
+
+// FORCE_THEME=light|dark pins the color scheme (used by build:light / build:dark)
+const { FORCE_THEME } = import.meta.env;
+---
+
+<html lang='en' style={FORCE_THEME ? `color-scheme: ${FORCE_THEME}` : undefined}>
+  <Head {...headProps} />
+
+  <body>
+    <main>
+      <slot />
+    </main>
+
+    <slot name="footer" />
+  </body>
+</html>

@@ -1,7 +1,7 @@
 ---
 title: Sherif Hoti - Resume
 description: Resume of Sherif Hoti.
-layout: ../layouts/Minimalist.astro
+layout: ../layouts/Resume.astro
 pdfLink: resume.pdf
 ---
 

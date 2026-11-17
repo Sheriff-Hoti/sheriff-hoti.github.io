@@ -4,18 +4,18 @@
 ![Dependabot status](https://badgen.net/github/dependabot/EmaSuriano/astro-resume)
 [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/Ema-suriano/astro-resume)
 
-> Resume builder based on [Markdown](https://www.markdownguide.org/) and [Tailwind CSS](https://tailwindcss.com/). Built with [Astro](https://astro.build/), and inspired by [Standard Resume](https://standardresume.co/).
+> Resume builder based on [Markdown](https://www.markdownguide.org/). Built with [Astro](https://astro.build/), and inspired by [Standard Resume](https://standardresume.co/).
+>
+> Design adapted from [twoism](https://github.com/esafev/twoism) by Vlad Esafev (MIT, see `LICENSE-twoism`). Font: IBM Plex Mono (OFL, see `public/fonts/OFL.txt`).
 
 ## [Demo](https://astro-resume.netlify.app)
 
 ## Features
 
-- Full Tailwind CSS integration with `@tailwindcss/typography` plugin
-- Dark mode ready with `:dark` tag powered by Tailwind CSS
+- Light/dark mode follows the system setting
 - No need for complex data structure, just write your information in Markdown!
 - Resume PDF generation using [Playwright](https://playwright.dev/)
 - Deployed to GitHub Pages via GitHub Actions (any static hosting works).
-- Fonts powered by [Fontsource](https://fontsource.org/)
 - Full Typescript support
 
 ## UI
