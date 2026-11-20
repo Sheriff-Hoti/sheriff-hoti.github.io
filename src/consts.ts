@@ -8,7 +8,7 @@ export const LINKS = [
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/sherif-hoti-92479b25a/' },
 ];
 
-export const RESUME_PDF = '/resume.pdf';
+export const RESUME_PDF = '/Sherif-Hoti-Resume.pdf';
 
 // Structured data (JSON-LD) describing the person this site is about.
 // Google requires it to match what's visible on the page, so keep it in sync
