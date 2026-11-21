@@ -13,7 +13,7 @@ Prishtina, Kosovo | On-site
 
 ---
 
-I am a passionate software engineer with 4+ years of experience in crafting robust and scalable web applications. My core expertise lies in TypeScript, JavaScript, and React for frontend development, complemented by backend proficiency in Java, Spring Boot, and Express.js. I have a strong foundation in relational databases and have worked with various technologies such as C#, Vue, Lit, and Solid. I thrive in dynamic environments, embracing challenges as opportunities for growth. My collaborative spirit and eagerness to learn make me a valuable asset to any team. I am committed to delivering high-quality software solutions that exceed expectations.
+I build web products end to end, from the interface people use to the systems behind it. Most recently I was a software engineer at Fella Health (YC-backed, operating as AIOS) during its growth to 200,000+ patients and $400M+ ARR. I worked on the growth team on lifecycle campaigns, WhatsApp messaging and Jesse, the company's agentic AI system for growth and support, and I started the move to a more reliable background job system that the team adopted as the standard. Before that, I spent over three years at Telos-Labs shipping React/Next.js products, backend services and AWS infrastructure.
 
 ---
 
@@ -28,6 +28,7 @@ Prishtina, Kosovo | Hybrid
 - Utilised Customerio platform to create multiple campaigns targeting leads and churned customers.
 - Used Twilio platform to create different whatsapp templates, with different content types(card, carousel, cta, quick-reply, etc..).
 - Added a notification system when Whatsapp templates got rejected or paused.
+- Initiated the move from Bull to BullMQ, migrating the first production queue as a proof of concept; BullMQ became the standard for every new queue afterwards.
 - Created email components on Customerio design system so campaign emails can use a unified design language.
 - Worked on [Jesse](https://www.boltpharmacy.co.uk/how-we-use-ai):
   - Prompt finetunning and then eval testing
