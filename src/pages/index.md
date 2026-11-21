@@ -13,7 +13,7 @@ Prishtina, Kosovo | On-site
 
 ---
 
-I build web products end to end, from the interface people use to the systems behind it. Most recently I was a software engineer at Fella Health (YC-backed, operating as AIOS) during its growth to 200,000+ patients and $400M+ ARR. I worked on the growth team on lifecycle campaigns, WhatsApp messaging and Jesse, the company's agentic AI system for growth and support, and I started the move to a more reliable background job system that the team adopted as the standard. Before that, I spent over three years at Telos-Labs shipping React/Next.js products, backend services and AWS infrastructure.
+I'm a full stack engineer with 4+ years of experience, mostly TypeScript with React on the frontend and Node.js, Express.js or Spring Boot on the backend. Most recently I was at Fella Health (YC-backed, operating as AIOS) while it grew to 200,000+ patients and $400M+ ARR. I was on the growth team, where I built lifecycle campaigns and WhatsApp messaging, worked on Jesse (the company's AI agent) and started our move from Bull to BullMQ. Before that I spent over three years at Telos-Labs working on React/Next.js apps and backend services, plus a year of AWS infrastructure with Terraform.
 
 ---
 
@@ -24,13 +24,13 @@ I build web products end to end, from the interface people use to the systems be
 #### Software Engineer | Feb 2026 - Sep 2026
 Prishtina, Kosovo | Hybrid
 
-- Was part of the AI Lifecycle Growth team.
-- Utilised the Customer.io platform to create multiple campaigns targeting leads and churned customers.
-- Used the Twilio platform to create different WhatsApp templates with different content types (card, carousel, CTA, quick-reply, etc.).
-- Added a notification system for when WhatsApp templates got rejected or paused.
-- Built features against the GraphQL API with Jest unit tests, running services locally in Docker.
-- Initiated the move from Bull to BullMQ, migrating the first production queue as a proof of concept; BullMQ became the standard for every new queue afterwards.
-- Created email components on the Customer.io design system so campaign emails can use a unified design language.
+- Worked on the AI Lifecycle Growth team.
+- Built Customer.io campaigns aimed at leads and churned customers.
+- Created WhatsApp templates in Twilio with different content types (card, carousel, CTA, quick reply).
+- Added alerts for when a WhatsApp template gets rejected or paused.
+- Built features on the GraphQL API and tested them with Jest, running services locally in Docker.
+- Started the move from Bull to BullMQ by migrating the first production queue. Every new queue after that was built on BullMQ.
+- Built shared email components in Customer.io so all campaign emails look consistent.
 - Worked on [Jesse](https://www.boltpharmacy.co.uk/how-we-use-ai):
   - Prompt fine-tuning and then eval testing
   - Monitoring how Jesse is behaving
@@ -43,35 +43,35 @@ Prishtina, Kosovo | Hybrid
 #### Software Engineer | Jan 2026 - Feb 2026
 Prishtina, Kosovo | On-site
 
-- Shipped Next.js app-router features with server/client components, ISR, and tuned caching.
-- Built a Tailwind design system on shadcn/ui primitives for consistent, complex UIs.
-- Integrated openapi-fetch client for typed contracts and responses across backend services.
-- Mentored teammates through code reviews and architecture discussions.<br><br>
+- Built Next.js App Router features using server and client components, ISR and caching.
+- Built a Tailwind design system on top of shadcn/ui components.
+- Set up openapi-fetch so calls to our backend services are fully typed.
+- Reviewed teammates' code and helped them with architecture decisions.<br><br>
 
 #### Software Engineer | Jan 2025 - Jan 2026
 Prishtina, Kosovo | On-site
 
-- Established CI/CD pipelines for Terraform plan/apply.
-- Authored reusable Terraform modules and standards for shared AWS environments.
-- Enabled centralized admin delegation for Security Hub, GuardDuty, Config and other AWS security related services across org accounts.
-- Implemented guardrails for AWS security services to cut noise and optimize costs.
-- Collaborated with teams to roll out infra changes safely via previews and staged deploys.<br><br>
+- Set up CI/CD pipelines for Terraform plan and apply.
+- Wrote reusable Terraform modules and standards for shared AWS environments.
+- Set up delegated admin for Security Hub, GuardDuty, Config and other AWS security services across the organization's accounts.
+- Added guardrails to those security services to cut noise and cost.
+- Rolled out infrastructure changes with other teams using previews and staged deploys.<br><br>
 
 #### Software Engineer | Jan 2024 - Jan 2025
 Prishtina, Kosovo | On-site
 
-- Optimized React apps with lazy loading, bundle trimming, and component refactors for performance.
-- Delivered microservice integrations between Spring Boot and Express.js services, running in Docker.
-- Built custom Keycloak authenticators and admin UI extensions for auth flows.
-- Migrated Spring Boot services from 5 to 6 with dependency and security updates.<br><br>
+- Made React apps faster with lazy loading, smaller bundles and component refactors.
+- Connected Spring Boot and Express.js microservices running in Docker.
+- Wrote custom Keycloak authenticators and admin UI extensions.
+- Upgraded Spring Boot services from version 5 to 6, including dependency and security updates.<br><br>
 
 #### Junior Software Engineer | Oct 2022 - Dec 2023
 Prishtina, Kosovo | On-site
 
-- Implemented UI features, layouts, and Redux state management with React/TypeScript, covered by Jest unit tests and Cypress end-to-end tests.
-- Handled async flows and backend error surfacing for resilient UX.
+- Built UI features and Redux state in React/TypeScript, tested with Jest and Cypress.
+- Handled async requests and showed backend errors clearly in the UI.
 - Added basic backend routes in Express.js.
-- Integrated browser APIs (camera, clipboard, etc.) with React components for richer UX.
+- Used browser APIs such as the camera and clipboard in React components.
 
 ---
 
@@ -85,7 +85,7 @@ Prishtina, Kosovo | On-site
 - **Frontend:** React, Next.js, Redux, Tailwind CSS, shadcn/ui, Vue, Solid
 - **Backend:** Node.js, Express.js, Spring Boot, BullMQ, Keycloak, REST APIs, GraphQL
 - **Databases:** PostgreSQL, SQLite, Redis
-- **Cloud & IaC:** Amazon Web Services (AWS): Security Hub, GuardDuty, Config; Terraform
+- **Cloud & IaC:** Amazon Web Services (AWS), Security Hub, GuardDuty, Config, Terraform
 - **CI/CD & DevOps:** GitHub Actions, TeamCity, Docker
 - **Testing:** Jest, Cypress
 - **AI & Messaging:** Agentic AI, LLM prompt tuning and evals, Customer.io, Twilio (WhatsApp)
@@ -105,9 +105,9 @@ Prishtina, Kosovo | On-site
 ### GJIMNAZI I SPECIALIZUAR MATEMATIKOR
 
 #### High School Degree | Sep 2017 - Jun 2020
-Math intensive track centered on analysis, number theory, combinatorics, algebra, and geometry, with supporting Java/C++ programming and database fundamentals.
+Math-intensive track (analysis, number theory, combinatorics, algebra, geometry), plus Java/C++ programming and database basics.
 
 ### UBT
 
 #### BSc Computer Science | Sep 2020 - Present
-Focused on algorithms, object-oriented development, web infrastructure, databases, graph theory, and applied math; applying these concepts through modern web projects.
+Coursework in algorithms, object-oriented programming, databases, web infrastructure, graph theory and applied math.
