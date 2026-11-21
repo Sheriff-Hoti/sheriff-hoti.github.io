@@ -28,6 +28,7 @@ Prishtina, Kosovo | Hybrid
 - Utilised the Customer.io platform to create multiple campaigns targeting leads and churned customers.
 - Used the Twilio platform to create different WhatsApp templates with different content types (card, carousel, CTA, quick-reply, etc.).
 - Added a notification system for when WhatsApp templates got rejected or paused.
+- Built features against the GraphQL API with Jest unit tests, running services locally in Docker.
 - Initiated the move from Bull to BullMQ, migrating the first production queue as a proof of concept; BullMQ became the standard for every new queue afterwards.
 - Created email components on the Customer.io design system so campaign emails can use a unified design language.
 - Worked on [Jesse](https://www.boltpharmacy.co.uk/how-we-use-ai):
@@ -60,14 +61,14 @@ Prishtina, Kosovo | On-site
 Prishtina, Kosovo | On-site
 
 - Optimized React apps with lazy loading, bundle trimming, and component refactors for performance.
-- Delivered microservice integrations between Spring Boot and Express.js services.
+- Delivered microservice integrations between Spring Boot and Express.js services, running in Docker.
 - Built custom Keycloak authenticators and admin UI extensions for auth flows.
 - Migrated Spring Boot services from 5 to 6 with dependency and security updates.<br><br>
 
 #### Junior Software Engineer | Oct 2022 - Dec 2023
 Prishtina, Kosovo | On-site
 
-- Implemented UI features, layouts, and Redux state management with React/TypeScript.
+- Implemented UI features, layouts, and Redux state management with React/TypeScript, covered by Jest unit tests and Cypress end-to-end tests.
 - Handled async flows and backend error surfacing for resilient UX.
 - Added basic backend routes in Express.js.
 - Integrated browser APIs (camera, clipboard, etc.) with React components for richer UX.
@@ -82,10 +83,11 @@ Prishtina, Kosovo | On-site
 
 - **Programming Languages:** TypeScript, JavaScript, Java, C#, SQL
 - **Frontend:** React, Next.js, Redux, Tailwind CSS, shadcn/ui, Vue, Solid
-- **Backend:** Node.js, Express.js, Spring Boot, BullMQ, Keycloak, REST APIs
+- **Backend:** Node.js, Express.js, Spring Boot, BullMQ, Keycloak, REST APIs, GraphQL
 - **Databases:** PostgreSQL, SQLite, Redis
 - **Cloud & IaC:** Amazon Web Services (AWS): Security Hub, GuardDuty, Config; Terraform
-- **CI/CD & DevOps:** GitHub Actions, TeamCity
+- **CI/CD & DevOps:** GitHub Actions, TeamCity, Docker
+- **Testing:** Jest, Cypress
 - **AI & Messaging:** Agentic AI, LLM prompt tuning and evals, Customer.io, Twilio (WhatsApp)
 
 ---
