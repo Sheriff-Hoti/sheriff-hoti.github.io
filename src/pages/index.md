@@ -78,6 +78,18 @@ Prishtina, Kosovo | On-site
 
 --- -->
 
+## Skills
+
+- **Programming Languages:** TypeScript, JavaScript, Java, C#, SQL
+- **Frontend:** React, Next.js, Redux, Tailwind CSS, shadcn/ui, Vue, Solid
+- **Backend:** Node.js, Express.js, Spring Boot, BullMQ, Keycloak, REST APIs
+- **Databases:** PostgreSQL, SQLite, Redis
+- **Cloud & IaC:** Amazon Web Services (AWS): Security Hub, GuardDuty, Config; Terraform
+- **CI/CD & DevOps:** GitHub Actions, TeamCity
+- **AI & Messaging:** Agentic AI, LLM prompt tuning and evals, Customer.io, Twilio (WhatsApp)
+
+---
+
 ## Languages
 
 | Albanian       | English          |
