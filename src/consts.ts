@@ -1,6 +1,6 @@
 export const SITE_TITLE = 'Sherif Hoti';
 export const SITE_DESCRIPTION =
-  'Sherif Hoti is a Full Stack Software Engineer in Prishtina, Kosovo with 4+ years building web applications with TypeScript, React, Java, Spring Boot and Express.js.';
+  'Sherif Hoti is a full stack software engineer in Prishtina, Kosovo who builds web products end to end, most recently at Fella Health (YC-backed, operating as AIOS).';
 export const SITE_URL = 'https://sheriff-hoti.github.io';
 
 export const LINKS = [

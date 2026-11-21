@@ -1,6 +1,6 @@
 ---
 title: Sherif Hoti — Full Stack Software Engineer · Prishtina, Kosovo
-description: Sherif Hoti is a Full Stack Software Engineer in Prishtina, Kosovo with 4+ years building web applications with TypeScript, React, Java, Spring Boot and Express.js.
+description: Sherif Hoti is a full stack software engineer in Prishtina, Kosovo who builds web products end to end, most recently at Fella Health (YC-backed, operating as AIOS).
 layout: ../layouts/Resume.astro
 pdfLink: Sherif-Hoti-Resume.pdf
 ---
@@ -24,14 +24,14 @@ I build web products end to end, from the interface people use to the systems be
 #### Software Engineer | Feb 2026 - Sep 2026
 Prishtina, Kosovo | Hybrid
 
-- Was part of Ai Lifecycle Growth team
-- Utilised Customerio platform to create multiple campaigns targeting leads and churned customers.
-- Used Twilio platform to create different whatsapp templates, with different content types(card, carousel, cta, quick-reply, etc..).
-- Added a notification system when Whatsapp templates got rejected or paused.
+- Was part of the AI Lifecycle Growth team.
+- Utilised the Customer.io platform to create multiple campaigns targeting leads and churned customers.
+- Used the Twilio platform to create different WhatsApp templates with different content types (card, carousel, CTA, quick-reply, etc.).
+- Added a notification system for when WhatsApp templates got rejected or paused.
 - Initiated the move from Bull to BullMQ, migrating the first production queue as a proof of concept; BullMQ became the standard for every new queue afterwards.
-- Created email components on Customerio design system so campaign emails can use a unified design language.
+- Created email components on the Customer.io design system so campaign emails can use a unified design language.
 - Worked on [Jesse](https://www.boltpharmacy.co.uk/how-we-use-ai):
-  - Prompt finetunning and then eval testing
+  - Prompt fine-tuning and then eval testing
   - Monitoring how Jesse is behaving
   - Adding and maintaining different tools
   - Feeding Jesse the right context and improving its decision making<br><br>
