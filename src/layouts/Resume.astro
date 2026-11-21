@@ -13,8 +13,7 @@ const { title, description } = Astro.props.frontmatter;
 ---
 
 <BaseLayout headProps={{ title, description }}>
-  <!-- id is used by scripts/generate-pdf.js -->
-  <article id="article-pdf-main">
+  <article>
     <slot />
   </article>
 

@@ -14,7 +14,7 @@
 
 - Light/dark mode follows the system setting
 - No need for complex data structure, just write your information in Markdown!
-- Resume PDF generation using [Playwright](https://playwright.dev/)
+- Resume PDF built separately from LaTeX and served from `public/Sherif-Hoti-Resume.pdf`
 - Deployed to GitHub Pages via GitHub Actions (any static hosting works).
 - Full Typescript support
 
@@ -32,12 +32,6 @@
 | ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | ![Desktop Light](https://user-images.githubusercontent.com/3399429/198139151-a04eacbb-f627-4d29-ada6-d353bea60b81.png) | ![Tablet light](https://user-images.githubusercontent.com/3399429/198139141-82076204-7018-415b-b313-1bde36939a8a.png) | ![Phone light](https://user-images.githubusercontent.com/3399429/198139137-e29fa7c8-d152-46de-b038-85faae1e7652.png) |
 
-### PDF Generated
-
-| Page 1                                                                                                              | Page 2                                                                                                              |
-| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| ![Pdf Page 1](https://user-images.githubusercontent.com/3399429/198139108-252928a4-bd64-4268-bd96-7cd9962dc635.png) | ![Pdf Page 2](https://user-images.githubusercontent.com/3399429/198139094-cf5e16c4-79b7-4094-939f-9960c56621b4.png) |
-
 ## Project Structure
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
@@ -45,8 +39,6 @@ Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page
 There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
 Any static assets, like images, can be placed in the `public/` directory.
-
-The pdf is generated at build time, so no need to manually generated it.
 
 ## Commands
 
